@@ -3,7 +3,7 @@
 
 ## Create makecachematrix Function
 
-makecachematrix <- function(x = matrix(1:4, 2, 2)) {
+makecachematrix <- function(x = matrix()) {
   ## Create a special objects that stores a matrix and cache its inverse
   inv1 <- NULL
   set1 <- function(y) {
